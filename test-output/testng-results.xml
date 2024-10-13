@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-11T21:22:39 EDT" name="Suite" finished-at="2024-10-11T21:22:45 EDT" duration-ms="6680">
+    <groups>
+    </groups>
+    <test started-at="2024-10-11T21:22:39 EDT" name="AddElementsToCartTest" finished-at="2024-10-11T21:22:45 EDT" duration-ms="6680">
+      <class name="com.pro.testcases.AddToCartTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.pro.testcases.AddToCartTest@50b472aa]" started-at="2024-10-11T21:22:38 EDT" name="setupSuite" finished-at="2024-10-11T21:22:39 EDT" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.pro.testcases.AddToCartTest@50b472aa]" started-at="2024-10-11T21:22:39 EDT" name="setup" finished-at="2024-10-11T21:22:43 EDT" duration-ms="4870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@68ea253b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestAddToCart()[pri:1, instance:com.pro.testcases.AddToCartTest@50b472aa]" started-at="2024-10-11T21:22:44 EDT" name="TestAddToCart" finished-at="2024-10-11T21:22:45 EDT" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddToCart -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.pro.testcases.AddToCartTest@50b472aa]" started-at="2024-10-11T21:22:45 EDT" name="tearDownMethod" finished-at="2024-10-11T21:22:45 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAddToCart status=SUCCESS method=AddToCartTest.TestAddToCart()[pri:1, instance:com.pro.testcases.AddToCartTest@50b472aa] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.pro.testcases.AddToCartTest.TestAddToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.pro.testcases.AddToCartTest@50b472aa]" started-at="2024-10-11T21:22:45 EDT" name="Teardown" finished-at="2024-10-11T21:22:45 EDT" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="genrateReport()[pri:0, instance:com.pro.testcases.AddToCartTest@50b472aa]" started-at="2024-10-11T21:22:45 EDT" name="genrateReport" finished-at="2024-10-11T21:22:46 EDT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genrateReport -->
+      </class> <!-- com.pro.testcases.AddToCartTest -->
+    </test> <!-- AddElementsToCartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
